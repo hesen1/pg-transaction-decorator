@@ -1,4 +1,4 @@
-基于[pg](https://www.npmjs.com/package/pg)和orm[sakura-node-3](https://www.npmjs.com/package/sakura-node-3)的事物装饰器
+基于[pg](https://www.npmjs.com/package/pg)和orm[sakura-node-3](https://www.npmjs.com/package/sakura-node-3)的事务装饰器
 
 # install
 

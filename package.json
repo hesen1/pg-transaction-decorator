@@ -1,0 +1,27 @@
+{
+  "name": "pg-transaction-decorator",
+  "version": "0.0.1",
+  "description": "pg-transaction-decorator",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/ts-node src/test/index.ts",
+    "build": "tsc",
+    "start": "./node_modules/.bin/ts-node src/test/index.ts"
+  },
+  "keywords": [
+    "pg",
+    "transaction",
+    "decorator"
+  ],
+  "author": "sen.he",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/express": "^4.17.1",
+    "ts-node": "^8.4.1",
+    "typescript": "^2.9.2"
+  },
+  "dependencies": {
+    "pg": "^7.12.1",
+    "sakura-node-3": "^3.5.24"
+  }
+}

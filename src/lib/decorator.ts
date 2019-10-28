@@ -1,7 +1,7 @@
 import { TransactionRepository } from "./transaction";
 
 /**
- * 事物装饰器
+ * 事务装饰器
  * @param autoCommit 是否自动commit，释放连接，默认自动commit
  */
 export function transaction(autoCommit: boolean = true) {

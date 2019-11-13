@@ -14,9 +14,10 @@ export function transaction(autoCommit: boolean = true) {
       try {
         conn = await TransactionRepository.getTransaction();
 
-        await method.call(this, ...arguments, conn);
+        const result = await method.call(this, ...arguments, conn);
 
         if (autoCommit) await conn.commit();
+        return result;
       } catch (e) {
         if (conn) await conn.rollback();
 
